@@ -5,6 +5,35 @@ body {
     margin: 0 auto;
 }
 
+.container {
+    margin-top: 90px;
+}
+
+.section-title {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.box-wrapper {
+    margin-top: 40px;
+}
+
+.box-text {
+    h4 {
+        font-size: 26px;
+    }
+    p {
+        font-size: 17px;
+    }
+}
+
 
 
 /* HEADER */
@@ -25,7 +54,7 @@ nav {
     align-items: center;
     p {
         font-family: 'Lobster', cursive;        
-        font-size: 34px;
+        font-size: 36px;
         color: #A257A3;
     }
 }
@@ -55,6 +84,9 @@ header {
         rgba(0, 0, 0, 0.6)
         ),
         url("https://i.postimg.cc/KjK2nrHR/pexels-anni-roenkae-2156881.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
 }
 
 header .container {
@@ -96,3 +128,45 @@ header .box {
 }
 
 
+
+/* SERVICES */
+
+.services .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services .box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.services i {
+    font-size: 60px;
+    color: #A257A3;
+}
+
+.services .box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h4 {
+        margin-bottom: 0;
+    }
+    p {
+        text-align: center;
+    }
+}
