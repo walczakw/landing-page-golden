@@ -5,7 +5,7 @@ body {
     margin: 0 auto;
 }
 
-.container {
+.wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,11 +101,7 @@ nav {
             text-decoration: none;
             font-size: 19px;
             text-shadow: 2px 4px 6px black;
-            letter-spacing: 1px;
-            &:hover {
-                font-size: 21px;
-                transition: 1s;
-            }  
+            letter-spacing: 1px; 
         }
     }
 }
@@ -192,12 +188,12 @@ header {
 
 .our-portfolio {
     background-color: #DDDDEE;
-    & .box-wrapper {
+    .box-wrapper {
         flex-wrap: wrap;
     }
     .box {
         background-color: white;
-        & .box-text {
+        .box-text {
             h3 {
                 margin-bottom: 0;
             }
@@ -223,7 +219,7 @@ header {
 /* FOOTER */
 
 
-footer .container {
+footer .wrapper {
     padding-top: 20px;
     padding-bottom: 20px;
     align-items: stretch;
@@ -275,7 +271,7 @@ footer .container {
 
 @media (max-width: 575px) {  
 
-    .container {
+    .wrapper {
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -344,7 +340,7 @@ footer .container {
 
 @media (min-width: 576px) and (max-width: 829px) {
 
-    .container {
+    .wrapper {
         padding-top: 20px;
         padding-bottom: 20px;
     }
